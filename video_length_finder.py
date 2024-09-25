@@ -20,6 +20,6 @@ def video_length_finder(video_length):
 
 print(video_length_finder('1m30')) # should return 90
 print(video_length_finder('2m15')) # should return 135
-print(video_length_finder('110')) # should return -1
-print(video_length_finder('100')) # should return -1
-print(video_length_finder('120')) # should return -1
+print(video_length_finder('99')) # should return -1
+print(video_length_finder('89')) # should return -1
+print(video_length_finder('120')) # should return 120
